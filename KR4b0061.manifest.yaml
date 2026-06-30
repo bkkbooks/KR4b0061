@@ -1,0 +1,49 @@
+canonical_identifier: bkk:krp/KR4b0061/v1
+canonical_location: https://kanripo.org/bkk/KR4b0061/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 劉豫章集一卷
+  identifiers:
+    krp: KR4b0061
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0061.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0061_001.yaml, hash: 'sha256:10b6b9668f189bdfc7ad4633535206387681ec1cf76ed8d4e8b8382a071b6484'}
+  - {seq: 2, filename: KR4b0061_002.yaml, hash: 'sha256:416e6b42a18afbb8ef0c747316cead436af3cbfc4ff54755875dc163dc6023e7'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0061_001.markers.yaml, hash: 'sha256:695935166b158a34820fdc1aefa7d58e784eb087ddf16d54693e40546d3e330c'}
+  - {seq: 2, role: markers, filename: assets/KR4b0061_002.markers.yaml, hash: 'sha256:3a324c5278e157b022c74beefff635bf6c066d681afbd51f92a6a6708cf82d0a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0061_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 894
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0061_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 4244
+  label: 卷二
+  type: section
+  level: 1
+hash: sha256:e156b03aca424e4d132ca36283d4ae00babd28745a1a91a3357ce7a0834e6dcb
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
